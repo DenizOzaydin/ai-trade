@@ -18,6 +18,6 @@ public class ApplicationContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        optionsBuilder.UseSqlServer("Server=LAPTOP-1U2CSG0R\\SQLEXPRESS; Database=MetuTradeDb; Trusted_Connection=True;");
+        optionsBuilder.UseSqlServer("Server=LAPTOP-1U2CSG0R\\SQLEXPRESS; Database=MetuTradeDb; Trusted_Connection=True; TrustServerCertificate=True;");
     }
 }

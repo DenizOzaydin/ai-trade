@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetuTrade.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46a882d72d65cd5529607f0053f3bccec01a1821")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c3c4c2f10672be3506e7cff1804019f42291f52")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetuTrade.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetuTrade.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

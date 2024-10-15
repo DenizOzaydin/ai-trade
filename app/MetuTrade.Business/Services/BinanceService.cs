@@ -1,6 +1,11 @@
 namespace MetuTrade.Business.Services;
 
+using MetuTrade.Business.Results;
 using MetuTrade.Business.Settings;
+using MetuTrade.Core;
+using MetuTrade.DataAccess.Market;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 
 public class BinanceService
 {

@@ -1,3 +1,11 @@
+using MetuTrade.Business.Settings;
+using Microsoft.Extensions.Options;
+using System.Net.Http;
+using MetuTrade.Business.Results;
+using MetuTrade.Business.RequestModels;
+using MetuTrade.Core;
+using Newtonsoft.Json;
+
 namespace MetuTrade.Business.Services;
 
 public class AdminService
@@ -5,7 +13,7 @@ public class AdminService
     private readonly IHttpClientFactory _httpClientFactory;
     private readonly AppSettings _settings;
 
-    public AdminService(IHttpClientFactory httpClientFactory, IOptions<FraXinusSettings> settings)
+    public AdminService(IHttpClientFactory httpClientFactory, IOptions<AppSettings> settings)
     {
         _httpClientFactory = httpClientFactory;
         _settings = settings.Value;

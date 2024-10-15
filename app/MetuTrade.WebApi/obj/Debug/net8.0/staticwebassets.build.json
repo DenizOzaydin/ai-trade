@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Xr7iPO96Bi0Yq3y4coWPlQ7m7UDqVbNspgnoqcuhRMg=",
+  "Source": "MetuTrade.WebApi",
+  "BasePath": "_content/MetuTrade.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

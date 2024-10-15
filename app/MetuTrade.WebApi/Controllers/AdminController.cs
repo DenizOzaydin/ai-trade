@@ -85,4 +85,12 @@ public class AdminController : ControllerBase
         _binanceBackgroundService.ClearSucceededOperations();
         return Ok();
     }
+
+    [HttpPost]
+    [Route("/manage/download/delete-failed")]
+    public IActionResult DeleteFailedOperations()
+    {
+        _binanceBackgroundService.ClearFailedOperations();
+        return Ok();
+    }
 }

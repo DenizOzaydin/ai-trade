@@ -120,6 +120,15 @@ public class BinanceBackgroundService
         }
     }
 
+    public void ClearFailedOperations()
+    {
+        List<Guid> cancelled = _tasks.Values.Where(task => task.Status == OperationStatus.Failure).Select(task => task.TaskId).ToList();
+        foreach (var guid in cancelled)
+        {
+            _tasks.Remove(guid, out _);
+        }
+    }
+
     public List<BinanceDownloadOperation> GetAllTasks()
     {
         return _tasks.Values.ToList();

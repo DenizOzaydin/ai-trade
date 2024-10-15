@@ -1,3 +1,6 @@
+using MetuTrade.Core;
+using MetuTrade.DataAccess.Market;
+
 namespace MetuTrade.Business.Services;
 
 public class BarService

@@ -22,6 +22,8 @@ public class Program
         builder.Services.AddScoped<BarRepository>();
         builder.Services.AddSingleton<BinanceBackgroundService>();
 
+        builder.Services.AddControllers();
+
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();

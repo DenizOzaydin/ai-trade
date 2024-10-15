@@ -4,3 +4,15 @@ C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.B
 C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.csproj.CoreCompileInputs.cache
 C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.sourcelink.json
 C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.csproj.AssemblyReference.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.Business.deps.json
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.Business.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.Business.pdb
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.Core.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.DataAccess.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.Core.pdb
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.DataAccess.pdb
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrad.F479B6CE.Up2Date
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\refint\MetuTrade.Business.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.pdb
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\ref\MetuTrade.Business.dll

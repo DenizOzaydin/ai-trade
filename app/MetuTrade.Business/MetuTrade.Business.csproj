@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MetuTrade.Core\MetuTrade.Core.csproj" />
     <ProjectReference Include="..\MetuTrade.DataAccess\MetuTrade.DataAccess.csproj" />
   </ItemGroup>
