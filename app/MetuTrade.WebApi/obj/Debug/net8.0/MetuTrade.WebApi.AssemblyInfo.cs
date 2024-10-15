@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetuTrade.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c3c4c2f10672be3506e7cff1804019f42291f52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b75f968d072b1a9fc0f99e20fd71608e2547f0c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetuTrade.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetuTrade.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

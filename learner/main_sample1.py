@@ -12,10 +12,9 @@ import analyze
 
 #%%
 
-symbol = "XRPUSDT"
+symbol = "ETHUSDT"
 interval = "1-h"
 start = "2019-01-01"
 end = "2024-08-01"
 
-access.save_stock_price(symbol, interval, start, end)
-# %%
+data = access.get_stock_price_from_local(symbol, interval, start, end)
