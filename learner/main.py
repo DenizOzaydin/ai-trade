@@ -1,3 +1,5 @@
+#%%
+
 import core
 import access
 import stats
@@ -12,7 +14,7 @@ import analyze
 
 interval = "1-h"
 start = "2019-01-01"
-end = "2023-01-01"
+end = "2024-08-01"
 feature_count = 5
 
 btc = access.get_stock_price("BTCUSDT", interval, start, end)
@@ -78,3 +80,5 @@ settings.kwargs = [5]
 
 model = models.train_model(features, closes, openTimes, settings)
 models.save_model(model, "./models/", "btc_1")
+# %%
+
