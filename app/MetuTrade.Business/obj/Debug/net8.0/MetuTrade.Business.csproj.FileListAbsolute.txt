@@ -1,0 +1,6 @@
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.AssemblyInfoInputs.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.AssemblyInfo.cs
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.csproj.CoreCompileInputs.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.sourcelink.json
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\obj\Debug\net8.0\MetuTrade.Business.csproj.AssemblyReference.cache

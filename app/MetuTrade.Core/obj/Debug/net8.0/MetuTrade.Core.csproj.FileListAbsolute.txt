@@ -1,0 +1,13 @@
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.AssemblyInfoInputs.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.AssemblyInfo.cs
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.csproj.CoreCompileInputs.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.sourcelink.json
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.csproj.AssemblyReference.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\bin\Debug\net8.0\MetuTrade.Core.deps.json
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\bin\Debug\net8.0\MetuTrade.Core.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\bin\Debug\net8.0\MetuTrade.Core.pdb
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\refint\MetuTrade.Core.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\MetuTrade.Core.pdb
+C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\obj\Debug\net8.0\ref\MetuTrade.Core.dll

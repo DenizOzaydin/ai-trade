@@ -1,0 +1,8 @@
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.csproj.AssemblyReference.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.AssemblyInfoInputs.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.AssemblyInfo.cs
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.sourcelink.json
