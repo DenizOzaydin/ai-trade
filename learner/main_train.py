@@ -80,5 +80,5 @@ settings.kwargs = [5]
 
 model = models.train_model(features, closes, openTimes, settings)
 models.save_model(model, "./models/", "btc_1")
-# %%
+#%%
 
