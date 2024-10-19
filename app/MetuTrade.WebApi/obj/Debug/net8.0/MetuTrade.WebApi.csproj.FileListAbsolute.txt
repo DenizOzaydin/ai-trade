@@ -151,3 +151,14 @@ C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\refint\MetuTr
 C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.pdb
 C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.genruntimeconfig.cache
 C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\ref\MetuTrade.WebApi.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\obj\Debug\net8.0\MetuTrade.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll

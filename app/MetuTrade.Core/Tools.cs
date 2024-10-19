@@ -1,6 +1,7 @@
 namespace MetuTrade.Core;
 
 using System.Net.Http.Headers;
+using System.Text;
 using Newtonsoft.Json;
 
 public static class Tools
@@ -54,5 +55,13 @@ public static class Tools
         var byteContent = new ByteArrayContent(buffer);
         byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
         return byteContent;
+    }
+
+    public static ArraySegment<byte> GenerateArraySegment<T>(T model)
+    {
+        string json = JsonConvert.SerializeObject(model);
+        var bytes = Encoding.UTF8.GetBytes(json);
+        var buffer = new ArraySegment<byte>(bytes);
+        return buffer;
     }
 }

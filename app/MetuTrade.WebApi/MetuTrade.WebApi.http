@@ -1,6 +1,2 @@
 @MetuTrade.WebApi_HostAddress = http://localhost:5246
-
-GET {{MetuTrade.WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
 ###

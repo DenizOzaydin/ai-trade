@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="MetuTrade.AdminUI.Views.ChartData.DownloadChartDataControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MetuTrade.AdminUI.Views.ChartData"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vms="using:MetuTrade.AdminUI.ViewModels.ChartData"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="32" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="32" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="32" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Download chart data"
+                   FontSize="20"
+                   FontWeight="Normal"
+                   Margin="0,0,0,16" />
+        <StackPanel Grid.Row="1" VerticalAlignment="Top">
+            <Grid Margin="0,0,0,12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="260" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Symbol" VerticalAlignment="Center" />
+                <TextBox Text="{Binding Symbol, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" />
+            </Grid>
+            <Grid Margin="0,0,0,12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="260" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Interval" VerticalAlignment="Center" />
+                <ComboBox SelectedValue="{Binding Interval, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" Width="260">
+                    <x:String>1-m</x:String>
+                    <x:String>5-m</x:String>
+                    <x:String>15-m</x:String>
+                    <x:String>1-h</x:String>
+                    <x:String>4-h</x:String>
+                    <x:String>1-d</x:String>
+                </ComboBox>
+            </Grid>
+            <Grid Margin="0,0,0,12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="260" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Start date" VerticalAlignment="Center" />
+                <TextBox Text="{Binding StartDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" PlaceholderText="yyyy-MM-dd" />
+            </Grid>
+            <Grid Margin="0,0,0,12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="260" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="End date" VerticalAlignment="Center" />
+                <TextBox Text="{Binding EndDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" PlaceholderText="yyyy-MM-dd" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Button Command="{Binding DownloadButton}" Content="Download" Style="{ThemeResource AccentButtonStyle}" Margin="0,0,16,0" />
+        </StackPanel>
+        <Grid CornerRadius="4" BorderThickness="1" BorderBrush="{ThemeResource SystemControlBackgroundBaseLowRevealBorderBrush}"  Grid.Row="1" Grid.Column="2" VerticalAlignment="Stretch" Margin="0,0,0,12">
+            <ListView SelectedItem="{Binding SelectedDownloadOperation}" MaxHeight="160" ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding DownloadOperationList}" VerticalAlignment="Stretch">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="vms:DownloadOperationViewModel">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="100" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding TaskId}"  FontWeight="SemiBold" />
+                            <TextBlock Grid.Row="1" Text="{Binding Description}" />
+                            <TextBlock Foreground="{Binding RatioColor}" TextAlignment="Right" VerticalAlignment="Center" FontWeight="SemiLight" FontSize="20" Grid.Column="1" Grid.RowSpan="2" Text="{Binding RatioString}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+        <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal">
+            <Button Command="{Binding GetOperationsButton}" Content="Refresh" Style="{ThemeResource DefaultButtonStyle}" Margin="0,0,16,0" />
+            <Button Command="{Binding DeleteCanceledButton}" Content="Delete canceled" Style="{ThemeResource DefaultButtonStyle}" Margin="0,0,16,0" />
+            <Button Command="{Binding DeleteSucceededButton}" Content="Delete succeeded" Style="{ThemeResource DefaultButtonStyle}" Margin="0,0,16,0" />
+        </StackPanel>
+        <Grid DataContext="{Binding SelectedDownloadOperation}" HorizontalAlignment="Stretch" Margin="0,0,0,12" Padding="12" CornerRadius="4" Grid.Row="1" Grid.Column="5" Background="{ThemeResource ControlFillColorSecondary}" BorderBrush="{ThemeResource SystemControlBackgroundBaseLowRevealBorderBrush}" BorderThickness="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="160" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock Margin="0,0,0,12" Text="{Binding TaskId}" FontWeight="SemiBold" FontSize="14" />
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                    <TextBlock Width="100" Text="Symbol: " />
+                    <TextBlock Text="{Binding Description}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                    <TextBlock Width="100" Text="Status: " />
+                    <TextBlock Text="{Binding Status}" Foreground="{Binding RatioColor}" FontWeight="SemiBold" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                    <TextBlock Width="100" Text="Packages: " />
+                    <TextBlock Text="{Binding PackagesReceived}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                    <TextBlock Width="100" Text="Loaded: " />
+                    <TextBlock Text="{Binding RatioString}" />
+                </StackPanel>
+            </StackPanel>
+            <ProgressRing Foreground="Yellow" Width="80" Height="80" Grid.Column="1" IsIndeterminate="False" Value="{Binding Ratio}" />
+        </Grid>
+        <StackPanel Grid.Column="4" Grid.Row="2" Orientation="Horizontal">
+            <Button Command="{Binding CancelButton}" Content="Cancel" Style="{ThemeResource DefaultButtonStyle}" Margin="0,0,16,0" />
+        </StackPanel>
+    </Grid>
+</UserControl>

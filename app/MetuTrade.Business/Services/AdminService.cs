@@ -11,9 +11,9 @@ namespace MetuTrade.Business.Services;
 public class AdminService
 {
     private readonly IHttpClientFactory _httpClientFactory;
-    private readonly AppSettings _settings;
+    private readonly AdminSettings _settings;
 
-    public AdminService(IHttpClientFactory httpClientFactory, IOptions<AppSettings> settings)
+    public AdminService(IHttpClientFactory httpClientFactory, IOptions<AdminSettings> settings)
     {
         _httpClientFactory = httpClientFactory;
         _settings = settings.Value;
@@ -105,4 +105,6 @@ public class AdminService
             var response = await client.PostAsync(_settings.DownloadDeleteSucceededOperationsUrl, null);
         }
     }
+
+
 }

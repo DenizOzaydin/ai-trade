@@ -1,0 +1,1 @@
+C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\MetuTrade.AdminUI.csproj;x64

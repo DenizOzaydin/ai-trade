@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MetuTrade.AdminUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MetuTrade.AdminUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

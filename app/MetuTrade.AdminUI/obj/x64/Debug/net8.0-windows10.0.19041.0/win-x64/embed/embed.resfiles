@@ -1,0 +1,5 @@
+App.xbf
+MainWindow.xbf
+Themes\Generic.xbf
+Views\ChartData\DownloadChartDataControl.xbf
+Views\ChartData\DownloadPage.xbf

@@ -10,11 +10,11 @@ using MetuTrade.Business.Results;
 [ApiController]
 public class AdminController : ControllerBase
 {
-    private readonly BinanceService _binanceService;
+    private readonly BinanceHttpService _binanceService;
     private readonly BarService _barService;
     private readonly BinanceBackgroundService _binanceBackgroundService;
 
-    public AdminController(BinanceService binanceService, BarService barService, BinanceBackgroundService binanceBackgroundService)
+    public AdminController(BinanceHttpService binanceService, BarService barService, BinanceBackgroundService binanceBackgroundService)
     {
         _binanceService = binanceService;
         _barService = barService;

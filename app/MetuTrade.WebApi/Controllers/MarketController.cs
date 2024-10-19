@@ -9,10 +9,10 @@ using Microsoft.AspNetCore.Mvc;
 [ApiController]
 public class MarketController : ControllerBase
 {
-    private readonly BinanceService _binanceService;
+    private readonly BinanceHttpService _binanceService;
     private readonly BarRepository _barRepository;
 
-    public MarketController(BinanceService binanceService, BarRepository barRepository)
+    public MarketController(BinanceHttpService binanceService, BarRepository barRepository)
     {
         _binanceService = binanceService;
         _barRepository = barRepository;

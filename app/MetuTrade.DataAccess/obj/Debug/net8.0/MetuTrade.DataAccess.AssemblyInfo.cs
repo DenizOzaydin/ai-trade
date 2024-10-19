@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetuTrade.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b75f968d072b1a9fc0f99e20fd71608e2547f0c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d4ba0911091239b43bad46c70771cfa9a899af1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetuTrade.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetuTrade.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

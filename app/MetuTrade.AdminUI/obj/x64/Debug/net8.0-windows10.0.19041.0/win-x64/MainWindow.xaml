@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="MetuTrade.AdminUI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MetuTrade.AdminUI"
+    xmlns:views="using:MetuTrade.AdminUI.Views.ChartData"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ControlFillColorSecondary}">
+        <NavigationView x:ConnectionId='2' Margin="0,32,0,0" x:Name="navigation" IsBackEnabled="False" IsBackButtonVisible="Collapsed"                                                PaneDisplayMode="Left" IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Download" Content="Download" Tag="downloadPage" />
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='3' x:Name="contentFrame" />
+        </NavigationView>
+    </Grid>
+</Window>
+

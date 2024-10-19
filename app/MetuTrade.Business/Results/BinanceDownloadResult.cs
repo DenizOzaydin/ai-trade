@@ -2,7 +2,6 @@ namespace MetuTrade.Business.Results;
 
 public class BinanceDownloadResult : ResultBase
 {
-
     public int Count { get; set; }
     public string? Symbol { get; set; }
     public string? Interval { get; set; }

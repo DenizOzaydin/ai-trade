@@ -1,6 +1,8 @@
 using MetuTrade.Business.Results;
 using MetuTrade.Business.Services;
 using MetuTrade.Core;
+using MetuTrade.WebApi.Hubs;
+using Microsoft.AspNetCore.SignalR;
 using System.Collections.Concurrent;
 
 namespace MetuTrade.WebApi.Services;
@@ -9,11 +11,13 @@ public class BinanceBackgroundService
 {
     private readonly ConcurrentDictionary<Guid, BinanceDownloadOperation> _tasks;
     private readonly IServiceProvider _serviceProvider;
+    private readonly IHubContext<AdminHub> _adminHub;
 
-    public BinanceBackgroundService(IServiceProvider serviceProvider)
+    public BinanceBackgroundService(IServiceProvider serviceProvider, IHubContext<AdminHub> adminHub)
     {
         _tasks = new();
         _serviceProvider = serviceProvider;
+        _adminHub = adminHub;
     }
 
     public void StartDownload(string symbol, string interval, string startDate, string endDate)
@@ -50,7 +54,7 @@ public class BinanceBackgroundService
         {
             using (var scope = _serviceProvider.CreateScope())
             {
-                BinanceService binanceService = scope.ServiceProvider.GetRequiredService<BinanceService>();
+                BinanceHttpService binanceService = scope.ServiceProvider.GetRequiredService<BinanceHttpService>();
                 long startTime_t = startTime;
                 bool flag = false;
 
@@ -64,6 +68,23 @@ public class BinanceBackgroundService
                     }
                     _tasks[taskId].CurrentTime = result.StartTime ?? _tasks[taskId].CurrentTime;
                     _tasks[taskId].PackagesReceived++;
+
+                    DownloadOperationResult dor = new DownloadOperationResult
+                    {
+                        CurrentTime = _tasks[taskId].CurrentTime,
+                        EndDate = _tasks[taskId].EndDate,
+                        EndTime = _tasks[taskId].EndTime,
+                        ErrorMessage = _tasks[taskId].ErrorMessage,
+                        Interval = _tasks[taskId].Interval,
+                        TaskId = taskId,
+                        PackagesReceived = _tasks[taskId].PackagesReceived,
+                        StartDate = _tasks[taskId].StartDate,
+                        StartTime = _tasks[taskId].StartTime,
+                        Status = _tasks[taskId].Status.ToString(),
+                        Symbol = _tasks[taskId].Symbol
+                    };
+
+                    await _adminHub.Clients.All.SendAsync("ReceiveMessage", dor);
 
                     token.ThrowIfCancellationRequested();
                     if (result == null) throw new Exception("Download process return value is null");
