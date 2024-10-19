@@ -12,13 +12,15 @@ public class AdminController : ControllerBase
 {
     private readonly BinanceHttpService _binanceService;
     private readonly BarService _barService;
-    private readonly BinanceBackgroundService _binanceBackgroundService;
+    private readonly BinanceBackgroundDownloadService _binanceBackgroundDownloadService;
+    private readonly BinanceBackgroundSocketService _binanceBackgroundSocketService;
 
-    public AdminController(BinanceHttpService binanceService, BarService barService, BinanceBackgroundService binanceBackgroundService)
+    public AdminController(BinanceHttpService binanceService, BarService barService, BinanceBackgroundDownloadService binanceBackgroundDownloadService, BinanceBackgroundSocketService binanceBackgroundSocketService)
     {
         _binanceService = binanceService;
         _barService = barService;
-        _binanceBackgroundService = binanceBackgroundService;
+        _binanceBackgroundDownloadService = binanceBackgroundDownloadService;
+        _binanceBackgroundSocketService = binanceBackgroundSocketService;
     }
 
     [HttpPost]
@@ -29,7 +31,7 @@ public class AdminController : ControllerBase
         {
             return BadRequest();
         }
-        _binanceBackgroundService.StartDownload(model.Symbol, model.Interval, model.StartDate, model.EndDate);
+        _binanceBackgroundDownloadService.StartDownload(model.Symbol, model.Interval, model.StartDate, model.EndDate);
         return Ok();
     }
 
@@ -37,7 +39,7 @@ public class AdminController : ControllerBase
     [Route("/manage/download/operations")]
     public IActionResult GetDownloadOperations()
     {
-        List<BinanceDownloadOperation> operations = _binanceBackgroundService.GetAllTasks();
+        List<BinanceDownloadOperation> operations = _binanceBackgroundDownloadService.GetAllTasks();
         List<DownloadOperationResult> results = new List<DownloadOperationResult>();
 
         foreach (var op in operations)
@@ -65,7 +67,7 @@ public class AdminController : ControllerBase
     [Route("/manage/download/cancel")]
     public IActionResult CancelOperation(Guid taskId)
     {
-        bool result = _binanceBackgroundService.RequestCancel(taskId);
+        bool result = _binanceBackgroundDownloadService.RequestCancel(taskId);
         if (result) return Ok();
         return NotFound();
     }
@@ -74,7 +76,7 @@ public class AdminController : ControllerBase
     [Route("/manage/download/delete-canceled")]
     public IActionResult DeleteCanceledOperations()
     {
-        _binanceBackgroundService.ClearCanceledOperations();
+        _binanceBackgroundDownloadService.ClearCanceledOperations();
         return Ok();
     }
 
@@ -82,7 +84,7 @@ public class AdminController : ControllerBase
     [Route("/manage/download/delete-succeeded")]
     public IActionResult DeleteSucceededOperations()
     {
-        _binanceBackgroundService.ClearSucceededOperations();
+        _binanceBackgroundDownloadService.ClearSucceededOperations();
         return Ok();
     }
 
@@ -90,7 +92,32 @@ public class AdminController : ControllerBase
     [Route("/manage/download/delete-failed")]
     public IActionResult DeleteFailedOperations()
     {
-        _binanceBackgroundService.ClearFailedOperations();
+        _binanceBackgroundDownloadService.ClearFailedOperations();
         return Ok();
+    }
+
+    [HttpPost]
+    [Route("/manage/subscription/subscribe-klines")]
+    public async Task<IActionResult> SubscribeKlinesAsync(SubscribeKlinesRequestModel model)
+    {
+        await _binanceBackgroundSocketService.SubscribeKlinesAsync(model.Symbol, model.Interval);
+        return Ok();
+    }
+
+    [HttpPost]
+    [Route("/manage/subscription/unsubscribe-klines")]
+    public async Task<IActionResult> UnsubscribeKlinesAsync(Guid id)
+    {
+        bool success = await _binanceBackgroundSocketService.UnsubscribeKlinesAsync(id);
+        if (success) return Ok();
+        return NotFound();
+    }
+
+    [HttpGet]
+    [Route("/manage/subscription/list")]
+    public IActionResult GetKlineSubscriptionsAsync()
+    {
+        var list = _binanceBackgroundSocketService.GetAllSubscriptions();
+        return Ok(list);
     }
 }

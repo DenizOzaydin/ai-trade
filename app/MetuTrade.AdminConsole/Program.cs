@@ -11,9 +11,7 @@ namespace MetuTrade.AdminConsole
     {
         public static void Main(string[] args)
         {
-            var restClient = new BinanceRestClient();
-            var klines = restClient.SpotApi.ExchangeData.GetKlinesAsync("BTCUSDT", Binance.Net.Enums.KlineInterval.FiveMinutes, limit:1000).Result;
-            Console.WriteLine(klines.Data.Count());
+
         }
     }
 }

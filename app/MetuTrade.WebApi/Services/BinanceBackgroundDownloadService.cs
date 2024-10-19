@@ -7,15 +7,16 @@ using System.Collections.Concurrent;
 
 namespace MetuTrade.WebApi.Services;
 
-public class BinanceBackgroundService
+public class BinanceBackgroundDownloadService
 {
-    private readonly ConcurrentDictionary<Guid, BinanceDownloadOperation> _tasks;
+    private readonly ConcurrentDictionary<Guid, BinanceDownloadOperation> _downloadOperations;
+
     private readonly IServiceProvider _serviceProvider;
     private readonly IHubContext<AdminHub> _adminHub;
 
-    public BinanceBackgroundService(IServiceProvider serviceProvider, IHubContext<AdminHub> adminHub)
+    public BinanceBackgroundDownloadService(IServiceProvider serviceProvider, IHubContext<AdminHub> adminHub)
     {
-        _tasks = new();
+        _downloadOperations = new();
         _serviceProvider = serviceProvider;
         _adminHub = adminHub;
     }
@@ -45,7 +46,7 @@ public class BinanceBackgroundService
             Status = OperationStatus.Running
         };
 
-        _tasks.GetOrAdd(operation.TaskId, operation);
+        _downloadOperations.GetOrAdd(operation.TaskId, operation);
     }
 
     private async Task DownloadAsync(string symbol, string interval, long startTime, long endTime, Guid taskId, CancellationToken token)
@@ -63,28 +64,28 @@ public class BinanceBackgroundService
                     BinanceDownloadResult result = await binanceService.DownloadAsync(symbol, interval, startTime_t, endTime);
                     if (flag == false)
                     {
-                        _tasks[taskId].StartTime = result.FirstBarOpenTime;
+                        _downloadOperations[taskId].StartTime = result.FirstBarOpenTime;
                         flag = true;
                     }
-                    _tasks[taskId].CurrentTime = result.StartTime ?? _tasks[taskId].CurrentTime;
-                    _tasks[taskId].PackagesReceived++;
+                    _downloadOperations[taskId].CurrentTime = result.StartTime ?? _downloadOperations[taskId].CurrentTime;
+                    _downloadOperations[taskId].PackagesReceived++;
 
                     DownloadOperationResult dor = new DownloadOperationResult
                     {
-                        CurrentTime = _tasks[taskId].CurrentTime,
-                        EndDate = _tasks[taskId].EndDate,
-                        EndTime = _tasks[taskId].EndTime,
-                        ErrorMessage = _tasks[taskId].ErrorMessage,
-                        Interval = _tasks[taskId].Interval,
+                        CurrentTime = _downloadOperations[taskId].CurrentTime,
+                        EndDate = _downloadOperations[taskId].EndDate,
+                        EndTime = _downloadOperations[taskId].EndTime,
+                        ErrorMessage = _downloadOperations[taskId].ErrorMessage,
+                        Interval = _downloadOperations[taskId].Interval,
                         TaskId = taskId,
-                        PackagesReceived = _tasks[taskId].PackagesReceived,
-                        StartDate = _tasks[taskId].StartDate,
-                        StartTime = _tasks[taskId].StartTime,
-                        Status = _tasks[taskId].Status.ToString(),
-                        Symbol = _tasks[taskId].Symbol
+                        PackagesReceived = _downloadOperations[taskId].PackagesReceived,
+                        StartDate = _downloadOperations[taskId].StartDate,
+                        StartTime = _downloadOperations[taskId].StartTime,
+                        Status = _downloadOperations[taskId].Status.ToString(),
+                        Symbol = _downloadOperations[taskId].Symbol
                     };
 
-                    await _adminHub.Clients.All.SendAsync("ReceiveMessage", dor);
+                    await _adminHub.Clients.All.SendAsync("ReceiveDownloadOperationMessage", dor);
 
                     token.ThrowIfCancellationRequested();
                     if (result == null) throw new Exception("Download process return value is null");
@@ -97,23 +98,23 @@ public class BinanceBackgroundService
                     }
                 }
             }
-            _tasks[taskId].Status = OperationStatus.Success;
+            _downloadOperations[taskId].Status = OperationStatus.Success;
         }
         catch (OperationCanceledException)
         {
-            _tasks[taskId].Status = OperationStatus.Canceled;
+            _downloadOperations[taskId].Status = OperationStatus.Canceled;
         }
         catch (Exception ex)
         {
-            _tasks[taskId].Status = OperationStatus.Failure;
-            _tasks[taskId].ErrorMessage = ex.Message;
+            _downloadOperations[taskId].Status = OperationStatus.Failure;
+            _downloadOperations[taskId].ErrorMessage = ex.Message;
         }
     }
 
     public bool RequestCancel(Guid taskId)
     {
         BinanceDownloadOperation? operation;
-        bool result = _tasks.TryGetValue(taskId, out operation);
+        bool result = _downloadOperations.TryGetValue(taskId, out operation);
 
         if (operation != null)
         {
@@ -125,33 +126,33 @@ public class BinanceBackgroundService
 
     public void ClearCanceledOperations()
     {
-        List<Guid> cancelled = _tasks.Values.Where(task => task.Status == OperationStatus.Canceled).Select(task => task.TaskId).ToList();
+        List<Guid> cancelled = _downloadOperations.Values.Where(task => task.Status == OperationStatus.Canceled).Select(task => task.TaskId).ToList();
         foreach (var guid in cancelled)
         {
-            _tasks.Remove(guid, out _);
+            _downloadOperations.Remove(guid, out _);
         }
     }
 
     public void ClearSucceededOperations()
     {
-        List<Guid> cancelled = _tasks.Values.Where(task => task.Status == OperationStatus.Success).Select(task => task.TaskId).ToList();
+        List<Guid> cancelled = _downloadOperations.Values.Where(task => task.Status == OperationStatus.Success).Select(task => task.TaskId).ToList();
         foreach (var guid in cancelled)
         {
-            _tasks.Remove(guid, out _);
+            _downloadOperations.Remove(guid, out _);
         }
     }
 
     public void ClearFailedOperations()
     {
-        List<Guid> cancelled = _tasks.Values.Where(task => task.Status == OperationStatus.Failure).Select(task => task.TaskId).ToList();
+        List<Guid> cancelled = _downloadOperations.Values.Where(task => task.Status == OperationStatus.Failure).Select(task => task.TaskId).ToList();
         foreach (var guid in cancelled)
         {
-            _tasks.Remove(guid, out _);
+            _downloadOperations.Remove(guid, out _);
         }
     }
 
     public List<BinanceDownloadOperation> GetAllTasks()
     {
-        return _tasks.Values.ToList();
+        return _downloadOperations.Values.ToList();
     }
 }

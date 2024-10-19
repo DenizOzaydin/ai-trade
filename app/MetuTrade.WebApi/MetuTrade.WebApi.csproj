@@ -27,4 +27,8 @@
     <ProjectReference Include="..\MetuTrade.Core\MetuTrade.Core.csproj" />
     <ProjectReference Include="..\MetuTrade.Business\MetuTrade.Business.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>

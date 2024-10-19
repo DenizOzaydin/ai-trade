@@ -16,12 +16,14 @@ public class Program
 
         // Add services to the container.
         builder.Services.AddHttpClient();
+        builder.Services.AddBinance();
         builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
         builder.Services.Configure<BinanceSettings>(builder.Configuration.GetSection("BinanceSettings"));
         builder.Services.AddScoped<BinanceHttpService>();
         builder.Services.AddScoped<BarService>();
         builder.Services.AddScoped<BarRepository>();
-        builder.Services.AddSingleton<BinanceBackgroundService>();
+        builder.Services.AddSingleton<BinanceBackgroundDownloadService>();
+        builder.Services.AddSingleton<BinanceBackgroundSocketService>();
 
         builder.Services.AddSignalR();
         builder.Services.AddControllers();

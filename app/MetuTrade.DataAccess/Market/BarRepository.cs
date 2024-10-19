@@ -71,7 +71,7 @@ public class BarRepository
         else
         {
             _context.Entry(exist).State = EntityState.Detached;
-            _context.Update(exist);
+            _context.Update(bar);
         }
     }
 }

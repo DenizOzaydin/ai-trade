@@ -1242,6 +1242,7 @@
       "MetuTrade.Business/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "CryptoClients.Net": "2.2.1",
           "MetuTrade.Core": "1.0.0",
           "MetuTrade.DataAccess": "1.0.0",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.10",
