@@ -1,4 +1,4 @@
-using MetuTrade.Core;
+using MetuTrade.Core.Miscellaneous;
 
 namespace MetuTrade.WebApi.Services;
 

@@ -1,8 +1,9 @@
 namespace MetuTrade.WebApi.Controllers;
 
 using MetuTrade.Business.Services;
-using MetuTrade.Core;
-using MetuTrade.DataAccess.Market;
+using MetuTrade.Core.Entities;
+using MetuTrade.Core.TechnicalAnalysis;
+using MetuTrade.DataAccess;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

@@ -448,9 +448,6 @@
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.5\runtimes\win-x64\lib\net8.0\System.Text.Encodings.Web.dll">
       <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.5\runtimes\win-x64\lib\net8.0\System.Text.Json.dll">
-      <PackagePath>System.Text.Json.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.5\runtimes\win-x64\lib\net8.0\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
     </AppxPackagedFile>
@@ -1432,6 +1429,63 @@
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\azure.identity\1.10.3\lib\netstandard2.0\Azure.Identity.dll">
       <PackagePath>Azure.Identity.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\binance.net\10.6.1\lib\netstandard2.1\Binance.Net.dll">
+      <PackagePath>Binance.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\bitfinex.net\7.8.2\lib\netstandard2.1\Bitfinex.Net.dll">
+      <PackagePath>Bitfinex.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\bitmart.net\1.3.2\lib\netstandard2.1\BitMart.Net.dll">
+      <PackagePath>BitMart.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\bybit.net\3.14.3\lib\netstandard2.1\Bybit.Net.dll">
+      <PackagePath>Bybit.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\coinex.net\7.7.2\lib\netstandard2.1\CoinEx.Net.dll">
+      <PackagePath>CoinEx.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\coingecko.net\2.6.1\lib\netstandard2.1\CoinGecko.Net.dll">
+      <PackagePath>CoinGecko.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\crc32.net\1.2.0\lib\netstandard2.0\Crc32.NET.dll">
+      <PackagePath>Crc32.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\cryptoclients.net\2.2.1\lib\netstandard2.1\CryptoClients.Net.dll">
+      <PackagePath>CryptoClients.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\cryptoexchange.net\8.0.3\lib\netstandard2.1\CryptoExchange.Net.dll">
+      <PackagePath>CryptoExchange.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\gateio.net\1.8.1\lib\netstandard2.1\GateIo.Net.dll">
+      <PackagePath>GateIo.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.bingx.net\1.11.1\lib\netstandard2.1\BingX.Net.dll">
+      <PackagePath>BingX.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.bitget.net\1.10.3\lib\netstandard2.1\Bitget.Net.dll">
+      <PackagePath>Bitget.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.mexc.net\1.8.2\lib\netstandard2.1\Mexc.Net.dll">
+      <PackagePath>Mexc.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.okx.net\2.5.1\lib\netstandard2.1\OKX.Net.dll">
+      <PackagePath>OKX.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jkorf.coinbase.net\1.0.1\lib\netstandard2.1\Coinbase.Net.dll">
+      <PackagePath>Coinbase.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jkorf.htx.net\6.1.3\lib\netstandard2.1\HTX.Net.dll">
+      <PackagePath>HTX.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jose-jwt\5.0.0\lib\netstandard2.1\jose-jwt.dll">
+      <PackagePath>jose-jwt.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\krakenexchange.net\5.0.0\lib\netstandard2.1\Kraken.Net.dll">
+      <PackagePath>Kraken.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\kucoin.net\5.15.1\lib\netstandard2.1\Kucoin.Net.dll">
+      <PackagePath>Kucoin.Net.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.connections.abstractions\8.0.10\lib\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll">
       <PackagePath>Microsoft.AspNetCore.Connections.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -1440,6 +1494,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.http.connections.common\8.0.10\lib\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll">
       <PackagePath>Microsoft.AspNetCore.Http.Connections.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.http.features\5.0.17\lib\net5.0\Microsoft.AspNetCore.Http.Features.dll">
+      <PackagePath>Microsoft.AspNetCore.Http.Features.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.signalr.client\8.0.10\lib\net8.0\Microsoft.AspNetCore.SignalR.Client.dll">
       <PackagePath>Microsoft.AspNetCore.SignalR.Client.dll</PackagePath>
@@ -1659,6 +1716,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\system.runtime.caching\6.0.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll">
       <PackagePath>System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\system.text.json\8.0.5\lib\net8.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.data.sqlclient.sni.runtime\5.1.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll">
       <PackagePath>Microsoft.Data.SqlClient.SNI.dll</PackagePath>

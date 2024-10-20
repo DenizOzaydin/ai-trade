@@ -2,7 +2,7 @@
 using Binance.Net.Enums;
 using Binance.Net.Interfaces;
 using CryptoExchange.Net.CommonObjects;
-using MetuTrade.Core;
+using MetuTrade.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

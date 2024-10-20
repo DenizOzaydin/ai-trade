@@ -1,7 +1,6 @@
 using MetuTrade.Business.Services;
 using MetuTrade.Business.Settings;
 using MetuTrade.DataAccess;
-using MetuTrade.DataAccess.Market;
 using MetuTrade.WebApi.Hubs;
 using MetuTrade.WebApi.Services;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +21,7 @@ public class Program
         builder.Services.AddScoped<BinanceHttpService>();
         builder.Services.AddScoped<BarService>();
         builder.Services.AddScoped<BarRepository>();
+        builder.Services.AddScoped<BotRepository>();
         builder.Services.AddSingleton<BinanceBackgroundDownloadService>();
         builder.Services.AddSingleton<BinanceBackgroundSocketService>();
 
@@ -40,6 +40,8 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
+        app.UseStaticFiles();
 
         app.UseHttpsRedirection();
 

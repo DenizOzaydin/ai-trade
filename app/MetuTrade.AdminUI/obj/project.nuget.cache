@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ErkNWaBz51c=",
+  "dgSpecHash": "GUoQ0MJI7NM=",
   "success": true,
   "projectFilePath": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.AdminUI\\MetuTrade.AdminUI.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.10\\microsoft.aspnetcore.connections.abstractions.8.0.10.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\8.0.10\\microsoft.aspnetcore.http.connections.client.8.0.10.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\8.0.10\\microsoft.aspnetcore.http.connections.common.8.0.10.nupkg.sha512",
+    "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\8.0.10\\microsoft.aspnetcore.signalr.client.8.0.10.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\8.0.10\\microsoft.aspnetcore.signalr.client.core.8.0.10.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.10\\microsoft.aspnetcore.signalr.common.8.0.10.nupkg.sha512",

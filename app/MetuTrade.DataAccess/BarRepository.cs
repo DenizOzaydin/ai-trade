@@ -1,9 +1,8 @@
-namespace MetuTrade.DataAccess.Market;
+namespace MetuTrade.DataAccess;
 
-using MetuTrade.DataAccess;
-using MetuTrade.Core;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
+using MetuTrade.Core.Entities;
 
 public class BarRepository
 {

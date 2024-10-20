@@ -6,8 +6,8 @@ using CryptoExchange.Net.SharedApis;
 using MetuTrade.Business.Mapper;
 using MetuTrade.Business.Results;
 using MetuTrade.Business.Settings;
-using MetuTrade.Core;
-using MetuTrade.DataAccess.Market;
+using MetuTrade.Core.Entities;
+using MetuTrade.DataAccess;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 

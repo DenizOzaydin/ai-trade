@@ -107,3 +107,4 @@ C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminConsole\bin\Debug\net8.0\HTX.Net
 C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminConsole\bin\Debug\net8.0\jose-jwt.dll
 C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminConsole\bin\Debug\net8.0\Kraken.Net.dll
 C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminConsole\bin\Debug\net8.0\Kucoin.Net.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminConsole\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll

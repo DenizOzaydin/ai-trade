@@ -14,10 +14,10 @@ import analyze
 
 interval = "1-h"
 start = "2019-01-01"
-end = "2024-08-01"
+end = "2024-10-20"
 feature_count = 5
 
-_data = access.get_stock_price("BTCUSDT", interval, start, end)
+_data = access.get_stock_price("BNBUSDT", interval, start, end)
 
 #%%
 
@@ -64,8 +64,8 @@ openTimes = np.concatenate([o1])
     
 #%%
 
-action = models.test_model("./models/btc_1", features, closes, openTimes)
-balance, _, _ = analyze.strategy(close, actions, 0.0005)
+action = models.test_model("./models/btc_2.pth", features, closes, openTimes)
+balance, _, _ = analyze.strategy(closes, action, 0.0000)
 plt.plot(balance)
 plt.show()
 

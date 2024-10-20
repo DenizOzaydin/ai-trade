@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "Xr7iPO96Bi0Yq3y4coWPlQ7m7UDqVbNspgnoqcuhRMg=",
+  "Hash": "qcCrcb4yOQyH9VDbng2eYdwTbNPwV9eG3XseBuxd61Q=",
   "Source": "MetuTrade.WebApi",
   "BasePath": "_content/MetuTrade.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MetuTrade.WebApi\\wwwroot",
+      "Source": "MetuTrade.WebApi",
+      "ContentRoot": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\",
+      "BasePath": "_content/MetuTrade.WebApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

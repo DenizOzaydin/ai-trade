@@ -1,8 +1,12 @@
+#%%
+
 import core
 import requests
 import json
 import pandas as pd
 import os
+
+base_url = "https://localhost:7269"
 
 def get_stock_price(symbol, interval, start, end):
     if(type(start) == type("abc")):
@@ -10,7 +14,7 @@ def get_stock_price(symbol, interval, start, end):
     if(type(end) == type("abc")):
         end = core.convert_to_unix(end)
     response = requests.get(
-        f"https://localhost:7245/api/market/get?symbol={symbol}&interval={interval}&start={start}&end={end}"
+        f"{base_url}/api/market/get?symbol={symbol}&interval={interval}&start={start}&end={end}"
         , verify=False)
     dic = json.loads(response.content)
     df = pd.DataFrame(data=dic["bars"])
@@ -23,7 +27,7 @@ def save_stock_price(symbol, interval, start, end):
     if(type(end) == type("abc")):
         end = core.convert_to_unix(end)
     response = requests.get(
-        f"https://localhost:7245/api/market/get?symbol={symbol}&interval={interval}&start={start}&end={end}"
+        f"{base_url}/api/market/get?symbol={symbol}&interval={interval}&start={start}&end={end}"
         , verify=False)
     dic = json.loads(response.content)
     st = json.dumps(dic)
@@ -46,4 +50,15 @@ def get_stock_price_from_local(symbol, interval, start, end):
     df = df[df['openTime'] < end]
     df = df.reset_index(drop=True)
     return df
+
+#%%
+
+def upload_model_json_to_server(path, name, desc):
+    url = f"{base_url}/manage/bot/upload"
+    
+    with open(path, 'rb') as fp:
+        files = {"File": (path, fp, 'application/json')}
+        data = {"Name": name, "Description": desc}
+        response = requests.post(url, files=files, data=data, verify=False)
         
+# %%

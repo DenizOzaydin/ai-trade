@@ -1,4 +1,6 @@
-namespace MetuTrade.Core;
+using MetuTrade.Core.Entities;
+
+namespace MetuTrade.Core.TechnicalAnalysis;
 
 public class Chart
 {

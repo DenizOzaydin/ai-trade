@@ -182,3 +182,4 @@ C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\jose-jwt.dll
 C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Kraken.Net.dll
 C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\Kucoin.Net.dll
 C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\deniz\code\ai-trade\app\MetuTrade.WebApi\bin\Debug\net8.0\MetuTrade.WebApi.staticwebassets.runtime.json

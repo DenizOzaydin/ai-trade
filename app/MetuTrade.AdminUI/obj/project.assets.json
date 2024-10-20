@@ -437,6 +437,23 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.SignalR.Client/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -2658,6 +2675,7 @@
           "CryptoClients.Net": "2.2.1",
           "MetuTrade.Core": "1.0.0",
           "MetuTrade.DataAccess": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.10",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.10",
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
@@ -3131,6 +3149,23 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
             "related": ".xml"
           }
         }
@@ -5290,6 +5325,7 @@
           "CryptoClients.Net": "2.2.1",
           "MetuTrade.Core": "1.0.0",
           "MetuTrade.DataAccess": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.10",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.10",
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
@@ -5763,6 +5799,23 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
             "related": ".xml"
           }
         }
@@ -7922,6 +7975,7 @@
           "CryptoClients.Net": "2.2.1",
           "MetuTrade.Core": "1.0.0",
           "MetuTrade.DataAccess": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.10",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.10",
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
@@ -8395,6 +8449,23 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
             "related": ".xml"
           }
         }
@@ -10554,6 +10625,7 @@
           "CryptoClients.Net": "2.2.1",
           "MetuTrade.Core": "1.0.0",
           "MetuTrade.DataAccess": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.SignalR.Client": "8.0.10",
           "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.10",
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
@@ -11037,6 +11109,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
         "microsoft.aspnetcore.http.connections.common.8.0.10.nupkg.sha512",
         "microsoft.aspnetcore.http.connections.common.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.SignalR.Client/8.0.10": {

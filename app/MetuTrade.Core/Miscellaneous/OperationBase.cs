@@ -1,4 +1,4 @@
-namespace MetuTrade.Core;
+namespace MetuTrade.Core.Miscellaneous;
 
 public class OperationBase
 {

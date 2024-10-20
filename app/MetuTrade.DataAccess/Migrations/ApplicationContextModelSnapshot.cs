@@ -21,7 +21,7 @@ namespace MetuTrade.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MetuTrade.Core.Bar", b =>
+            modelBuilder.Entity("MetuTrade.Core.Entities.Bar", b =>
                 {
                     b.Property<string>("Symbol")
                         .HasColumnType("nvarchar(450)");
@@ -49,7 +49,32 @@ namespace MetuTrade.DataAccess.Migrations
 
                     b.HasKey("Symbol", "Interval", "OpenTime");
 
-                    b.ToTable("Bar");
+                    b.ToTable("Bars");
+                });
+
+            modelBuilder.Entity("MetuTrade.Core.Entities.Bot", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ModelUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Bots");
                 });
 #pragma warning restore 612, 618
         }

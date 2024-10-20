@@ -117,6 +117,33 @@ def test_model(path, states, closes, openTimes):
         
     return np.array(actions).flatten()
 
+def save_model_weights(dir, model_name, features):
+    path = os.path.join(dir, model_name) + ".pth"
+    model = open_model(path)
+    policy = model.policy
+
+    model_params = {}
+
+    weights = []
+    biases = []
+
+    for name, param in policy.named_parameters():
+        if(name.startswith("value")):
+            continue
+        if(name.endswith("weight")):
+            weights.append(param.data.numpy().tolist())
+        if(name.endswith("bias")):
+            biases.append(param.data.numpy().tolist())
+        
+    model_params["weights"] = weights
+    model_params["biases"] = biases
+    model_params["features"] = features
+
+    json_path = dir + "/weights/" + model_name + ".json"
+    
+    with open(json_path, "w") as f:
+        json.dump(model_params, f)
+
 
     
     

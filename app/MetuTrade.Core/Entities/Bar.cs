@@ -1,4 +1,4 @@
-namespace MetuTrade.Core;
+namespace MetuTrade.Core.Entities;
 
 public class Bar
 {

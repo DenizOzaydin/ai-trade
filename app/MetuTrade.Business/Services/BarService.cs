@@ -1,5 +1,5 @@
-using MetuTrade.Core;
-using MetuTrade.DataAccess.Market;
+using MetuTrade.Core.Entities;
+using MetuTrade.DataAccess;
 
 namespace MetuTrade.Business.Services;
 

@@ -3,7 +3,8 @@ using Binance.Net.Interfaces;
 using Binance.Net.Interfaces.Clients;
 using CryptoExchange.Net.Objects.Sockets;
 using MetuTrade.Business.Mapper;
-using MetuTrade.DataAccess.Market;
+using MetuTrade.Core.Entities;
+using MetuTrade.DataAccess;
 using MetuTrade.WebApi.Hubs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
@@ -30,7 +31,7 @@ namespace MetuTrade.WebApi.Services
         {
             Action<DataEvent<IBinanceStreamKlineData>> onMessage = new Action<DataEvent<IBinanceStreamKlineData>>(async data =>
             {
-                Core.Bar bar = MapperProfile.MapBar(symbol, interval, data.Data.Data);
+                Bar bar = MapperProfile.MapBar(symbol, interval, data.Data.Data);
 
                 using (var scope = _serviceProvider.CreateScope())
                 {
