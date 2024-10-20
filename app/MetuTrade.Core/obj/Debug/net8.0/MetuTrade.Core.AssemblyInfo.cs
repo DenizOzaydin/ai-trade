@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetuTrade.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5406185d7d872bd2c6e913525f0c8c26714585ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33951220f5e1d9b6d451e8749adb49b6ecaa2975")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetuTrade.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetuTrade.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,5 @@
 ﻿using MetuTrade.Business.Results;
-using MetuTrade.WebApi.Services;
+using MetuTrade.WebApi.Services.Models;
 using Microsoft.AspNetCore.SignalR;
 
 namespace MetuTrade.WebApi.Hubs

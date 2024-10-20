@@ -3,6 +3,7 @@ using MetuTrade.Business.Services;
 using MetuTrade.Core;
 using MetuTrade.Core.Miscellaneous;
 using MetuTrade.WebApi.Hubs;
+using MetuTrade.WebApi.Services.Tasks;
 using Microsoft.AspNetCore.SignalR;
 using System.Collections.Concurrent;
 

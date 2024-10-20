@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qcCrcb4yOQyH9VDbng2eYdwTbNPwV9eG3XseBuxd61Q=",
+  "Hash": "EyGpIVZ63CwKFFwDhlEul9W7kvX3bD5AIyXB5JoMUF0=",
   "Source": "MetuTrade.WebApi",
   "BasePath": "_content/MetuTrade.WebApi",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json",
+      "SourceId": "MetuTrade.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\",
+      "BasePath": "_content/MetuTrade.WebApi",
+      "RelativePath": "bots/fa0707ea-20cd-48db-910f-3b3ca268e108.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json"
+    }
+  ]
 }

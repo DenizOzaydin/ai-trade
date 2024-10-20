@@ -31,6 +31,11 @@ namespace MetuTrade.DataAccess
             }
         }
 
+        public async Task<List<Bot>> GetAllAsync()
+        {
+            return await _context.Set<Bot>().ToListAsync();
+        }
+
         public async Task<Bot?> GetByIdAsync(int id)
         {
             return await _context.Set<Bot>().AsNoTracking().Where(e => e.Id == id).FirstOrDefaultAsync();

@@ -1,6 +1,7 @@
 ﻿using CryptoExchange.Net.Objects.Sockets;
+using MetuTrade.WebApi.Services.Enums;
 
-namespace MetuTrade.WebApi.Services
+namespace MetuTrade.WebApi.Services.Tasks
 {
     public class BinanceKlineSubscription
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetuTrade.Core.Entities
+namespace MetuTrade.Business.Results
 {
-    public class Bot
+    public class GetBotResult
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,4 +1,4 @@
-﻿namespace MetuTrade.WebApi.Services
+﻿namespace MetuTrade.WebApi.Services.Enums
 {
     public enum BinanceSubscriptionStatus
     {

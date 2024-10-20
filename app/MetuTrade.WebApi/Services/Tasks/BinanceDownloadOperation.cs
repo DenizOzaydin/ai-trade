@@ -1,6 +1,6 @@
 using MetuTrade.Core.Miscellaneous;
 
-namespace MetuTrade.WebApi.Services;
+namespace MetuTrade.WebApi.Services.Tasks;
 
 public class BinanceDownloadOperation : OperationBase
 {

@@ -1,6 +1,7 @@
 ﻿using MetuTrade.Business.RequestModels;
 using MetuTrade.Business.Results;
 using MetuTrade.WebApi.Services;
+using MetuTrade.WebApi.Services.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

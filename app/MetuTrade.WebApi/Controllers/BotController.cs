@@ -1,8 +1,11 @@
 ﻿using MetuTrade.Business.RequestModels;
+using MetuTrade.Business.Results;
 using MetuTrade.Core.Entities;
 using MetuTrade.DataAccess;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 
 namespace MetuTrade.WebApi.Controllers
 {
@@ -38,10 +41,50 @@ namespace MetuTrade.WebApi.Controllers
             {
                 Name = model.Name,
                 Description = model.Description,
-                ModelUrl = filePath
+                Url = filePath
             };
 
             await _botRepository.UpdateAsync(bot);
+            await _botRepository.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("manage/bot/list")]
+        public async Task<IActionResult> GetBotsAsync()
+        {
+            List<Bot> bots = await _botRepository.GetAllAsync();
+            List<GetBotResult> result = new();
+            foreach (Bot bot in bots)
+            {
+                result.Add(new GetBotResult
+                {
+                    Id = bot.Id,
+                    Name = bot.Name,
+                    Description = bot.Description,
+                    Url = bot.Url,
+                });
+            }
+            return Ok(result);
+        }
+
+        [HttpPost]
+        [Route("manage/bot/delete")]
+        public async Task<IActionResult> DeleteBot(int id)
+        {
+            Bot? bot = await _botRepository.GetByIdAsync(id);
+
+            if (bot == null) return BadRequest();
+
+            string path = bot.Url;
+
+            if (System.IO.File.Exists(path))
+            {
+                System.IO.File.Delete(path);
+            }
+
+            await _botRepository.DeleteAsync(id);
             await _botRepository.SaveChangesAsync();
 
             return Ok();
