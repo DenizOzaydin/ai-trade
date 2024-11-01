@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EyGpIVZ63CwKFFwDhlEul9W7kvX3bD5AIyXB5JoMUF0=",
+  "Hash": "AbvpN2hdWdwFoAOqb6tB8ccVwxROxVZ8KoFzmBQzyic=",
   "Source": "MetuTrade.WebApi",
   "BasePath": "_content/MetuTrade.WebApi",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json",
+      "Identity": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json",
       "SourceId": "MetuTrade.WebApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\",
       "BasePath": "_content/MetuTrade.WebApi",
-      "RelativePath": "bots/fa0707ea-20cd-48db-910f-3b3ca268e108.json",
+      "RelativePath": "bots/06136e05-ee55-4792-bff8-1449fde8753e.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json"
+      "OriginalItemSpec": "wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json"
+    },
+    {
+      "Identity": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+      "SourceId": "MetuTrade.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\",
+      "BasePath": "_content/MetuTrade.WebApi",
+      "RelativePath": "bots/1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json"
     }
   ]
 }

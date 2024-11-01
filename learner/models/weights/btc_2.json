@@ -60,45 +60,47 @@
         ]
     ],
     "features": [
-        [
-            "macdLine",
-            [
+        {
+            "key": "macdLine",
+            "parameters": [
                 "close",
                 35,
                 70,
                 20
             ]
-        ],
-        [
-            "macdHist",
-            [
+        },
+        {
+            "key": "macdHist",
+            "parameters": [
                 "close",
                 35,
                 70,
                 20
             ]
-        ],
-        [
-            "macdLine",
-            [
+        },
+        {
+            "key": "macdLine",
+            "parameters": [
                 "volume",
                 35,
                 70,
                 20
             ]
-        ],
-        [
-            "macdHist",
-            [
+        },
+        {
+            "key": "macdHist",
+            "parameters": [
                 "volume",
                 35,
                 70,
                 20
             ]
-        ],
-        [
-            "priceRange",
-            400
-        ]
+        },
+        {
+            "key": "priceRange",
+            "parameters": [
+                400
+            ]
+        }
     ]
 }

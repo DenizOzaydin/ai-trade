@@ -2,6 +2,7 @@
 using MetuTrade.Business.Results;
 using MetuTrade.Core.Entities;
 using MetuTrade.DataAccess;
+using MetuTrade.WebApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,7 @@ namespace MetuTrade.WebApi.Controllers
 
         [HttpPost]
         [Route("/manage/bot/upload")]
-        public async Task<IActionResult> UploadBot([FromForm] UploadBotRequestModel model)
+        public async Task<IActionResult> UploadBotAsync([FromForm] UploadBotRequestModel model)
         {
             string fileName = Guid.NewGuid().ToString() + ".json";
             string botsPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "bots");
@@ -71,7 +72,7 @@ namespace MetuTrade.WebApi.Controllers
 
         [HttpPost]
         [Route("manage/bot/delete")]
-        public async Task<IActionResult> DeleteBot(int id)
+        public async Task<IActionResult> DeleteBotAsync(int id)
         {
             Bot? bot = await _botRepository.GetByIdAsync(id);
 

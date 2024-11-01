@@ -6,7 +6,6 @@ import torch
 import torch.nn as nn
 import os
 import json
-from indicator import IndicatorSettings
 
 class PPOSettings:
     gamma = 1.0
@@ -20,15 +19,6 @@ class PPOSettings:
     ent_coef = 0.001
     kwargs = [8]
     
-class ModelSettings:
-    def __init__(self):
-        self.indicator_settings = []
-    def add_indicator(self, ind_type, params):
-        settings = IndicatorSettings()
-        settings.indicator_type = ind_type
-        settings.params = params
-        self.indicator_settings.append(settings)
-    
 def open_model(path):
     return PPO.load(path)
 
@@ -41,7 +31,7 @@ def get_env(states, closes, openTimes):
         def __init__(self):
             super(TradingEnv, self).__init__()
             self.action_space = gym.spaces.Box(low=-1., high=1., shape=(1,), dtype=np.float32)
-            self.observation_space = gym.spaces.Box(low=-1., high=1., shape=(states.shape[1],), dtype=np.float32)
+            self.observation_space = gym.spaces.Box(low=-4., high=4., shape=(states.shape[1],), dtype=np.float32)
             self.current_step = 0
             self.last_lot = 0
             self.last_action = 0
@@ -117,7 +107,7 @@ def test_model(path, states, closes, openTimes):
         
     return np.array(actions).flatten()
 
-def save_model_weights(dir, model_name, features):
+def save_model_weights(dir, model_name, settings):
     path = os.path.join(dir, model_name) + ".pth"
     model = open_model(path)
     policy = model.policy
@@ -137,7 +127,7 @@ def save_model_weights(dir, model_name, features):
         
     model_params["weights"] = weights
     model_params["biases"] = biases
-    model_params["features"] = features
+    model_params["settings"] = settings
 
     json_path = dir + "/weights/" + model_name + ".json"
     

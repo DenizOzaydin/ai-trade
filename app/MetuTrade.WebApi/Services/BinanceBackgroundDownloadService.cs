@@ -31,7 +31,6 @@ public class BinanceBackgroundDownloadService
         Guid taskId = Guid.NewGuid();
 
         CancellationTokenSource source = new CancellationTokenSource();
-        source.CancelAfter(TimeSpan.FromHours(1));
         Task task = DownloadAsync(symbol, interval, startTime, endTime, taskId, source.Token);
         BinanceDownloadOperation operation = new BinanceDownloadOperation
         {
@@ -55,49 +54,51 @@ public class BinanceBackgroundDownloadService
     {
         try
         {
-            using (var scope = _serviceProvider.CreateScope())
+            long startTime_t = startTime;
+            bool flag = false;
+
+            while (true)
             {
-                BinanceHttpService binanceService = scope.ServiceProvider.GetRequiredService<BinanceHttpService>();
-                long startTime_t = startTime;
-                bool flag = false;
-
-                while (true)
+                BinanceDownloadResult result;
+                using(var scope = _serviceProvider.CreateScope())
                 {
-                    BinanceDownloadResult result = await binanceService.DownloadAsync(symbol, interval, startTime_t, endTime);
-                    if (flag == false)
-                    {
-                        _downloadOperations[taskId].StartTime = result.FirstBarOpenTime;
-                        flag = true;
-                    }
-                    _downloadOperations[taskId].CurrentTime = result.StartTime ?? _downloadOperations[taskId].CurrentTime;
-                    _downloadOperations[taskId].PackagesReceived++;
+                    BinanceHttpService binanceService = scope.ServiceProvider.GetRequiredService<BinanceHttpService>();
+                    result = await binanceService.DownloadAsync(symbol, interval, startTime_t, endTime);
+                }
 
-                    DownloadOperationResult dor = new DownloadOperationResult
-                    {
-                        CurrentTime = _downloadOperations[taskId].CurrentTime,
-                        EndDate = _downloadOperations[taskId].EndDate,
-                        EndTime = _downloadOperations[taskId].EndTime,
-                        ErrorMessage = _downloadOperations[taskId].ErrorMessage,
-                        Interval = _downloadOperations[taskId].Interval,
-                        TaskId = taskId,
-                        PackagesReceived = _downloadOperations[taskId].PackagesReceived,
-                        StartDate = _downloadOperations[taskId].StartDate,
-                        StartTime = _downloadOperations[taskId].StartTime,
-                        Status = _downloadOperations[taskId].Status.ToString(),
-                        Symbol = _downloadOperations[taskId].Symbol
-                    };
+                if (flag == false)
+                {
+                    _downloadOperations[taskId].StartTime = result.FirstBarOpenTime;
+                    flag = true;
+                }
+                _downloadOperations[taskId].CurrentTime = result.StartTime ?? _downloadOperations[taskId].CurrentTime;
+                _downloadOperations[taskId].PackagesReceived++;
 
-                    await _adminHub.Clients.All.SendAsync("ReceiveDownloadOperationMessage", dor);
+                DownloadOperationResult dor = new DownloadOperationResult
+                {
+                    CurrentTime = _downloadOperations[taskId].CurrentTime,
+                    EndDate = _downloadOperations[taskId].EndDate,
+                    EndTime = _downloadOperations[taskId].EndTime,
+                    ErrorMessage = _downloadOperations[taskId].ErrorMessage,
+                    Interval = _downloadOperations[taskId].Interval,
+                    TaskId = taskId,
+                    PackagesReceived = _downloadOperations[taskId].PackagesReceived,
+                    StartDate = _downloadOperations[taskId].StartDate,
+                    StartTime = _downloadOperations[taskId].StartTime,
+                    Status = _downloadOperations[taskId].Status.ToString(),
+                    Symbol = _downloadOperations[taskId].Symbol
+                };
 
-                    token.ThrowIfCancellationRequested();
-                    if (result == null) throw new Exception("Download process return value is null");
-                    if (result.StatusCode != System.Net.HttpStatusCode.OK) throw new Exception(result.StatusCode.ToString() + " received");
+                await _adminHub.Clients.All.SendAsync("ReceiveDownloadOperationMessage", dor);
 
-                    if (result.Count == 0 || result.NextStartTime == null) break;
-                    if (result.NextStartTime != null)
-                    {
-                        startTime_t = (long)result.NextStartTime;
-                    }
+                token.ThrowIfCancellationRequested();
+                if (result == null) throw new Exception("Download process return value is null");
+                if (result.StatusCode != System.Net.HttpStatusCode.OK) throw new Exception(result.StatusCode.ToString() + " received");
+
+                if (result.Count == 0 || result.NextStartTime == null) break;
+                if (result.NextStartTime != null)
+                {
+                    startTime_t = (long)result.NextStartTime;
                 }
             }
             _downloadOperations[taskId].Status = OperationStatus.Success;

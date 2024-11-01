@@ -12,60 +12,50 @@ import analyze
 
 #%%
 
+stock = "ETHUSDT"
+start = "2023-01-01"
+end = "2025-01-01"
+
+model_name = "c_2"
+#settings["settings"]["interval"]
 interval = "1-h"
-start = "2019-01-01"
-end = "2024-10-20"
-feature_count = 5
-
-_data = access.get_stock_price("BNBUSDT", interval, start, end)
 
 #%%
 
-mult = 1
+model_path = f"./models/{model_name}.pth"
+settings_path = f"./models/weights/{model_name}.json"
 
-def concat(features, index, ls):
-    for x in ls:
-        features[index].append(x)
+model = models.open_model(model_path)
+settings = access.open_json(settings_path)
 
-def create_dataset(data):
-    high = np.array(data['high'])
-    low = np.array(data['low'])
-    close = np.array(data['close'])
-    volume = np.array(data['volume'])
-    openTime = np.array(data['openTime'])
+#%%
+datas = [access.get_stock_price(stock, interval, start, end)]
 
-    macdLine, macdHist, _ = ind.macd(close, 35 * mult, 70 * mult, 20 * mult)
-    volMacd, volHist, _ = ind.macd(volume, 35 * mult, 70 * mult, 20 * mult)
-    price_range, hl_diff = ind.price_range(high, low, close, 400 * mult)
+#%%
+indicators = settings["settings"]["indicators"]
 
-    macdLine = pre.normalize_by_close(macdLine, close)
-    macdHist = pre.normalize_by_close(macdHist, close)
-    volMacd = pre.normalize(volMacd)
-    volHist = pre.normalize(volHist)
+#%%
 
-    hl_diff = pre.normalize_by_close(hl_diff, close)
-    
-    features = []
-    features.append(macdLine)
-    features.append(macdHist)
-    features.append(volMacd)
-    features.append(volHist)
-    features.append(price_range)
-    
-    features = np.transpose(features)
-    
-    return features, close, openTime
+fss = []
+css = []
+oss = []
 
-f1, c1, o1 = create_dataset(_data)
+for data in datas:
+    f, c, o = pre.create_dataset(data, indicators)
+    fss.append(f)
+    css.append(c)
+    oss.append(o)
 
-features = np.concatenate([f1])
-closes = np.concatenate([c1])
-openTimes = np.concatenate([o1])
+features = np.concatenate(fss)
+closes = np.concatenate(css)
+openTimes = np.concatenate(oss)
+
+features = pre.normalize_features_std(features, settings["settings"]["std"])
     
 #%%
 
-action = models.test_model("./models/btc_2.pth", features, closes, openTimes)
-balance, _, _ = analyze.strategy(closes, action, 0.0000)
+action = models.test_model(model_path, features, closes, openTimes)
+balance, _, _ = analyze.calculate_balance(closes, action, 0.0000)
 plt.plot(balance)
 plt.show()
 

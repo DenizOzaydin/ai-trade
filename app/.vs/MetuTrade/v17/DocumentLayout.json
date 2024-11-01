@@ -3,124 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\deniz\\code\\ai-trade\\app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\downloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\downloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\wwwroot\\bots\\6e8190c1-990c-47dd-8e21-b210a4bac225.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\wwwroot\\bots\\6e8190c1-990c-47dd-8e21-b210a4bac225.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\enums\\binancesubscriptionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\enums\\binancesubscriptionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\tasks\\binanceklinesubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\tasks\\binanceklinesubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\models\\binancesubscriptionmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\models\\binancesubscriptionmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\signalgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\signalgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\binancebackgroundsocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\binancebackgroundsocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\artificialintelligence\\neuralnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\artificialintelligence\\neuralnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\binancebackgrounddownloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\binancebackgrounddownloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\tasks\\signalgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\tasks\\signalgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\tasks\\binancedownloadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\tasks\\binancedownloadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{70A110D0-AC10-419F-ACAA-CDB667C91C6D}|MetuTrade.AdminConsole\\MetuTrade.AdminConsole.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.adminconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A110D0-AC10-419F-ACAA-CDB667C91C6D}|MetuTrade.AdminConsole\\MetuTrade.AdminConsole.csproj|solutionrelative:metutrade.adminconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D6AFE94-2665-4D6C-9979-1FD5EE2808A4}|MetuTrade.DataAccess\\MetuTrade.DataAccess.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.dataaccess\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6AFE94-2665-4D6C-9979-1FD5EE2808A4}|MetuTrade.DataAccess\\MetuTrade.DataAccess.csproj|solutionrelative:metutrade.dataaccess\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\binancebackgrounddownloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\binancebackgrounddownloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\Migrations\\20241020201048_BotCreated2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetuTrade.DataAccess\\Migrations\\20241020201048_BotCreated2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\binancebackgroundsocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\binancebackgroundsocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\Migrations\\20241020194507_BotCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetuTrade.DataAccess\\Migrations\\20241020194507_BotCreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\hubs\\signalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\hubs\\signalhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\botcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\botcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\hubs\\adminhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\hubs\\adminhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.business\\results\\getbotresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|solutionrelative:metutrade.business\\results\\getbotresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.business\\results\\signalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|solutionrelative:metutrade.business\\results\\signalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D6AFE94-2665-4D6C-9979-1FD5EE2808A4}|MetuTrade.DataAccess\\MetuTrade.DataAccess.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.dataaccess\\botrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6AFE94-2665-4D6C-9979-1FD5EE2808A4}|MetuTrade.DataAccess\\MetuTrade.DataAccess.csproj|solutionrelative:metutrade.dataaccess\\botrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\hubs\\markethub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\hubs\\markethub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\entities\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\entities\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6AFE94-2665-4D6C-9979-1FD5EE2808A4}|MetuTrade.DataAccess\\MetuTrade.DataAccess.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.dataaccess\\barrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6AFE94-2665-4D6C-9979-1FD5EE2808A4}|MetuTrade.DataAccess\\MetuTrade.DataAccess.csproj|solutionrelative:metutrade.dataaccess\\barrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.business\\requestmodels\\uploadbotrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|solutionrelative:metutrade.business\\requestmodels\\uploadbotrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.business\\services\\barservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|solutionrelative:metutrade.business\\services\\barservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.business\\requestmodels\\downloadstartrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|solutionrelative:metutrade.business\\requestmodels\\downloadstartrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\technicalanalysis\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\technicalanalysis\\chart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.business\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B21BB46-0802-4684-9480-F446BC982EC7}|MetuTrade.Business\\MetuTrade.Business.csproj|solutionrelative:metutrade.business\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\tasks\\signalgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\tasks\\signalgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\technicalanalysis\\indicators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\technicalanalysis\\indicators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\collections\\deque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\collections\\deque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\mathematics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\mathematics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\metutrade.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\metutrade.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\hubs\\markethub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\hubs\\markethub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\artificialintelligence\\neuralnetworksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\artificialintelligence\\neuralnetworksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\botcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\botcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\signalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\signalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\artificialintelligence\\preprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\artificialintelligence\\preprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.core\\artificialintelligence\\featuresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BA7B4B-6185-4A9B-B3BF-CADB7EF9922C}|MetuTrade.Core\\MetuTrade.Core.csproj|solutionrelative:metutrade.core\\artificialintelligence\\featuresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\downloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\downloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\services\\tasks\\binancedownloadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\services\\tasks\\binancedownloadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|c:\\users\\deniz\\code\\ai-trade\\app\\metutrade.webapi\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E50CE9-191B-4860-AFF2-F332CDA226CC}|MetuTrade.WebApi\\MetuTrade.WebApi.csproj|solutionrelative:metutrade.webapi\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,24 +118,303 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignalGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\appsettings.json",
+              "RelativeToolTip": "MetuTrade.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T20:43:33.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "6e8190c1-990c-47dd-8e21-b210a4bac225.json",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\6e8190c1-990c-47dd-8e21-b210a4bac225.json",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\wwwroot\\bots\\6e8190c1-990c-47dd-8e21-b210a4bac225.json",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\6e8190c1-990c-47dd-8e21-b210a4bac225.json",
+              "RelativeToolTip": "MetuTrade.WebApi\\wwwroot\\bots\\6e8190c1-990c-47dd-8e21-b210a4bac225.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T19:52:09.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignalGeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:25:35.618Z",
+              "WhenOpened": "2024-10-20T23:25:41.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "BinanceBackgroundSocketService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:09:17.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BinanceBackgroundDownloadService.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:09:17.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.AdminConsole\\Program.cs",
+              "RelativeDocumentMoniker": "MetuTrade.AdminConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.AdminConsole\\Program.cs",
+              "RelativeToolTip": "MetuTrade.AdminConsole\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:18:09.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NeuralNetwork.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\NeuralNetwork.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\ArtificialIntelligence\\NeuralNetwork.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\NeuralNetwork.cs",
+              "RelativeToolTip": "MetuTrade.Core\\ArtificialIntelligence\\NeuralNetwork.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T23:26:38.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminHub.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\AdminHub.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Hubs\\AdminHub.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\AdminHub.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Hubs\\AdminHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:15:14.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignalResult.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Results\\SignalResult.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Business\\Results\\SignalResult.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Results\\SignalResult.cs",
+              "RelativeToolTip": "MetuTrade.Business\\Results\\SignalResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:16:08.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "06136e05-ee55-4792-bff8-1449fde8753e.json",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json",
+              "RelativeToolTip": "MetuTrade.WebApi\\wwwroot\\bots\\06136e05-ee55-4792-bff8-1449fde8753e.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T20:15:58.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Program.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:11:35.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignalHub.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\SignalHub.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Hubs\\SignalHub.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\SignalHub.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Hubs\\SignalHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:15:10.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MarketHub.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\MarketHub.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Hubs\\MarketHub.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\MarketHub.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Hubs\\MarketHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:15:12.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Indicators.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
+              "RelativeToolTip": "MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAFMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:33:52.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Tools.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\Tools.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Tools.cs",
+              "RelativeToolTip": "MetuTrade.Core\\Tools.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:50:34.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Mathematics.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Mathematics.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\Mathematics.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Mathematics.cs",
+              "RelativeToolTip": "MetuTrade.Core\\Mathematics.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAADgv5AAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:50:11.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignalGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Services\\Tasks\\SignalGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T23:25:39.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+              "RelativeToolTip": "MetuTrade.WebApi\\wwwroot\\bots\\1fd57944-2df2-4679-80a9-28bdcdfd6cbb.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-24T20:16:00.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SubscriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:28:09.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NeuralNetworkSettings.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\NeuralNetworkSettings.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\ArtificialIntelligence\\NeuralNetworkSettings.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\NeuralNetworkSettings.cs",
+              "RelativeToolTip": "MetuTrade.Core\\ArtificialIntelligence\\NeuralNetworkSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:22:15.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BotController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\BotController.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\BotController.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\BotController.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\BotController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:30:55.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SignalController.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\SignalController.cs",
+              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\SignalController.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\SignalController.cs",
+              "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\SignalController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:11:41.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FeatureSettings.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\FeatureSettings.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\ArtificialIntelligence\\FeatureSettings.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\FeatureSettings.cs",
+              "RelativeToolTip": "MetuTrade.Core\\ArtificialIntelligence\\FeatureSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T23:26:38.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Preprocessing.cs",
+              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\Preprocessing.cs",
+              "RelativeDocumentMoniker": "MetuTrade.Core\\ArtificialIntelligence\\Preprocessing.cs",
+              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\ArtificialIntelligence\\Preprocessing.cs",
+              "RelativeToolTip": "MetuTrade.Core\\ArtificialIntelligence\\Preprocessing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:32:34.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "BinanceDownloadOperation.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\BinanceDownloadOperation.cs",
               "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\Tasks\\BinanceDownloadOperation.cs",
@@ -155,372 +422,31 @@
               "RelativeToolTip": "MetuTrade.WebApi\\Services\\Tasks\\BinanceDownloadOperation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:25:19.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignalGeneratorService.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\SignalGeneratorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:25:10Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "fa0707ea-20cd-48db-910f-3b3ca268e108.json",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json",
-              "RelativeToolTip": "MetuTrade.WebApi\\wwwroot\\bots\\fa0707ea-20cd-48db-910f-3b3ca268e108.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-20T20:22:13.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BinanceBackgroundSocketService.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\BinanceBackgroundSocketService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:21:07.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BinanceBackgroundDownloadService.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\BinanceBackgroundDownloadService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:21:06.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BinanceSubscriptionStatus.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Enums\\BinanceSubscriptionStatus.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\Enums\\BinanceSubscriptionStatus.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Enums\\BinanceSubscriptionStatus.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\Enums\\BinanceSubscriptionStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:20:49.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BinanceSubscriptionMessage.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Models\\BinanceSubscriptionMessage.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\Models\\BinanceSubscriptionMessage.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Models\\BinanceSubscriptionMessage.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\Models\\BinanceSubscriptionMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:20:11.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BinanceKlineSubscription.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\BinanceKlineSubscription.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Services\\Tasks\\BinanceKlineSubscription.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Services\\Tasks\\BinanceKlineSubscription.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Services\\Tasks\\BinanceKlineSubscription.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:20:12.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20241020201048_BotCreated2.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\Migrations\\20241020201048_BotCreated2.cs",
-              "RelativeDocumentMoniker": "MetuTrade.DataAccess\\Migrations\\20241020201048_BotCreated2.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\Migrations\\20241020201048_BotCreated2.cs",
-              "RelativeToolTip": "MetuTrade.DataAccess\\Migrations\\20241020201048_BotCreated2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:10:48.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetBotResult.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Results\\GetBotResult.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Business\\Results\\GetBotResult.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Results\\GetBotResult.cs",
-              "RelativeToolTip": "MetuTrade.Business\\Results\\GetBotResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T20:03:27.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Program.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:56:11.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241020194507_BotCreated.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\Migrations\\20241020194507_BotCreated.cs",
-              "RelativeDocumentMoniker": "MetuTrade.DataAccess\\Migrations\\20241020194507_BotCreated.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\Migrations\\20241020194507_BotCreated.cs",
-              "RelativeToolTip": "MetuTrade.DataAccess\\Migrations\\20241020194507_BotCreated.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:45:08.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DownloadStartRequestModel.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\RequestModels\\DownloadStartRequestModel.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Business\\RequestModels\\DownloadStartRequestModel.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\RequestModels\\DownloadStartRequestModel.cs",
-              "RelativeToolTip": "MetuTrade.Business\\RequestModels\\DownloadStartRequestModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:31:36.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UploadBotRequestModel.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\RequestModels\\UploadBotRequestModel.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Business\\RequestModels\\UploadBotRequestModel.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\RequestModels\\UploadBotRequestModel.cs",
-              "RelativeToolTip": "MetuTrade.Business\\RequestModels\\UploadBotRequestModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:31:29.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Chart.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\TechnicalAnalysis\\Chart.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Core\\TechnicalAnalysis\\Chart.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\TechnicalAnalysis\\Chart.cs",
-              "RelativeToolTip": "MetuTrade.Core\\TechnicalAnalysis\\Chart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:23:46.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BarService.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Services\\BarService.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Business\\Services\\BarService.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Services\\BarService.cs",
-              "RelativeToolTip": "MetuTrade.Business\\Services\\BarService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:16:58.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:07:13.187Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Business\\Services\\AdminService.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Business\\Services\\AdminService.cs",
-              "RelativeToolTip": "MetuTrade.Business\\Services\\AdminService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:16:41.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\BarRepository.cs",
-              "RelativeDocumentMoniker": "MetuTrade.DataAccess\\BarRepository.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\BarRepository.cs",
-              "RelativeToolTip": "MetuTrade.DataAccess\\BarRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:13:41.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BotRepository.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\BotRepository.cs",
-              "RelativeDocumentMoniker": "MetuTrade.DataAccess\\BotRepository.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\BotRepository.cs",
-              "RelativeToolTip": "MetuTrade.DataAccess\\BotRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:13:39.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "MetuTrade.DataAccess\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.DataAccess\\ApplicationContext.cs",
-              "RelativeToolTip": "MetuTrade.DataAccess\\ApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:12:31.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Bot.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Entities\\Bot.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Core\\Entities\\Bot.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Entities\\Bot.cs",
-              "RelativeToolTip": "MetuTrade.Core\\Entities\\Bot.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:11:27.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Deque.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Collections\\Deque.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Core\\Collections\\Deque.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\Collections\\Deque.cs",
-              "RelativeToolTip": "MetuTrade.Core\\Collections\\Deque.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T18:18:59.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Indicators.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
-              "RelativeDocumentMoniker": "MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
-              "RelativeToolTip": "MetuTrade.Core\\TechnicalAnalysis\\Indicators.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:59:02.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MetuTrade.Core",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\MetuTrade.Core.csproj",
-              "RelativeDocumentMoniker": "MetuTrade.Core\\MetuTrade.Core.csproj",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.Core\\MetuTrade.Core.csproj",
-              "RelativeToolTip": "MetuTrade.Core\\MetuTrade.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-20T17:58:22.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BotController.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\BotController.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\BotController.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\BotController.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\BotController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:30:32.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "SubscriptionController.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\SubscriptionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:24:00.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DownloadController.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\DownloadController.cs",
               "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\DownloadController.cs",
               "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\DownloadController.cs",
               "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\DownloadController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:22:24.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T21:28:04.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "MarketController.cs",
               "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\MarketController.cs",
               "RelativeDocumentMoniker": "MetuTrade.WebApi\\Controllers\\MarketController.cs",
               "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Controllers\\MarketController.cs",
               "RelativeToolTip": "MetuTrade.WebApi\\Controllers\\MarketController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAADLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:09:33.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MarketHub.cs",
-              "DocumentMoniker": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\MarketHub.cs",
-              "RelativeDocumentMoniker": "MetuTrade.WebApi\\Hubs\\MarketHub.cs",
-              "ToolTip": "C:\\Users\\deniz\\code\\ai-trade\\app\\MetuTrade.WebApi\\Hubs\\MarketHub.cs",
-              "RelativeToolTip": "MetuTrade.WebApi\\Hubs\\MarketHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T17:09:18.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T21:11:06.131Z"
             }
           ]
         }

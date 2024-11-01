@@ -2,18 +2,12 @@ import core
 import numpy as np
 from collections import deque
 
-class IndicatorSettings:
-    def __init__(self):
-        self.indicator_type = ""
-        self.params = None
-
 def derivative(ls):
     n = len(ls)
     der = core.generate(n)
     for i in range(1, n):
         der[i] = ls[i] - ls[i - 1]
     return der
-
 
 def ema(ls, p):
     n = len(ls)
@@ -26,6 +20,8 @@ def ema(ls, p):
         ind[i] = a * ls[i] + (1 - a) * ind[i - 1]
     return ind
 
+def ema_ratio(ls, p1, p2):
+    return np.log(ema(ls, p1) / ema(ls, p2))
 
 def rma(ls, p):
     n = len(ls)
@@ -37,7 +33,6 @@ def rma(ls, p):
     for i in range(1, n):
         ind[i] = a * ls[i] + (1 - a) * ind[i - 1]
     return ind
-
 
 def tr(high, low, close):
     n = len(close)
@@ -52,10 +47,8 @@ def tr(high, low, close):
         tr[i] = max(t1, t2, t3)
     return tr
 
-
 def atr(high, low, close, length):
     return rma(tr(high, low, close), length)
-
 
 def adx(high, low, close, length):
     n = len(close)
@@ -95,7 +88,6 @@ def adx(high, low, close, length):
 
     return (dx, up, down)
 
-
 def macd(close, fast, slow, signal):
     fastLine = ema(close, fast)
     slowLine = ema(close, slow)
@@ -103,31 +95,6 @@ def macd(close, fast, slow, signal):
     signalLine = ema(macdLine, signal)
     macdHist = np.subtract(macdLine, signalLine)
     return (macdLine, macdHist, signalLine)
-
-
-'''
-            int n = H.Count;
-
-            List<double> hhv = Generate(n);
-            Deque<int> q = new Deque<int>(2000000);
-
-            for(int i = 0; i < n; i++)
-            {
-                while(q.Size != 0 && i - q.GetFront() > p)
-                {
-                    q.PopFront();
-                }
-                while(q.Size != 0 && H[q.GetBack()] < H[i])
-                {
-                    q.PopBack();
-                }
-                q.PushBack(i);
-                hhv[i] = H[q.GetFront()];
-            }
-
-            return hhv;
-'''
-
 
 def hhv(close, p):
     n = len(close)
@@ -145,7 +112,6 @@ def hhv(close, p):
 
     return ind
 
-
 def llv(close, p):
     n = len(close)
 
@@ -162,8 +128,7 @@ def llv(close, p):
 
     return ind
 
-
-def price_range(high, low, close, length):
+def spectrum(high, low, close, length):
     n = len(close)
     
     _hhv = hhv(high, length)
@@ -174,8 +139,26 @@ def price_range(high, low, close, length):
     for i in range(n):
         if(_hhv[i] - _llv[i] > 0):
             pr[i] = (close[i] - _llv[i]) / (_hhv[i] - _llv[i])
+            pr[i] = pr[i] * 2.0 - 1.0
         else:
             pr[i] = 0
         diff[i] = _hhv[i] - _llv[i]
         
-    return pr, diff
+    return pr
+
+def solve(ix, high, low, close, volume):
+    if(ix[0] == 'close'):
+        return close
+    if(ix[0] == 'high'):
+        return high
+    if(ix[0] == 'low'):
+        return low
+    if(ix[0] == 'volume'):
+        return volume
+    if(ix[0] == 'ema'):
+        return ema(solve(ix[1], high, low, close, volume), ix[2])
+    if(ix[0] == 'emaRatio'):
+        return ema_ratio(solve(ix[1], high, low, close, volume), ix[2], ix[3])
+    if(ix[0] == "spectrum"):
+        return spectrum(solve(ix[1], high, low, close, volume), solve(ix[2], high, low, close, volume), solve(ix[3], high, low, close, volume), ix[4])
+    return None

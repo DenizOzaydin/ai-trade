@@ -8,6 +8,11 @@ import os
 
 base_url = "https://localhost:7269"
 
+def open_json(path):
+    with open(path, 'r') as fp:
+        dic = json.loads(fp.read())
+        return dic
+
 def get_stock_price(symbol, interval, start, end):
     if(type(start) == type("abc")):
         start = core.convert_to_unix(start)

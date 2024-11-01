@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-16T11:26:54.276</Modified>
+      <Modified>2024-10-22T21:26:51.093</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-16T11:12:08.837</Modified>
+      <Modified>2024-10-20T19:44:59.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MetuTrade.AdminUI.runtimeconfig.json">
       <PackagePath>MetuTrade.AdminUI.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-15T23:53:02.911</Modified>
+      <Modified>2024-10-20T19:44:58.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MetuTrade.AdminUI.dll">
       <PackagePath>MetuTrade.AdminUI.dll</PackagePath>
-      <Modified>2024-10-16T11:26:52.969</Modified>
+      <Modified>2024-10-22T21:26:49.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>MetuTrade.AdminUI.exe</PackagePath>
-      <Modified>2024-10-16T11:26:52.977</Modified>
+      <Modified>2024-10-22T21:26:49.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
@@ -596,10 +596,6 @@
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.5\runtimes\win-x64\lib\net8.0\System.Text.Encodings.Web.dll">
       <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
       <Modified>2024-04-16T22:53:40.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.5\runtimes\win-x64\lib\net8.0\System.Text.Json.dll">
-      <PackagePath>System.Text.Json.dll</PackagePath>
-      <Modified>2024-04-16T22:53:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.5\runtimes\win-x64\lib\net8.0\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
@@ -1909,6 +1905,82 @@
       <PackagePath>Azure.Identity.dll</PackagePath>
       <Modified>2023-10-18T19:59:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\binance.net\10.6.1\lib\netstandard2.1\Binance.Net.dll">
+      <PackagePath>Binance.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:31:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\bitfinex.net\7.8.2\lib\netstandard2.1\Bitfinex.Net.dll">
+      <PackagePath>Bitfinex.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:34:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\bitmart.net\1.3.2\lib\netstandard2.1\BitMart.Net.dll">
+      <PackagePath>BitMart.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:36:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\bybit.net\3.14.3\lib\netstandard2.1\Bybit.Net.dll">
+      <PackagePath>Bybit.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:36:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\coinex.net\7.7.2\lib\netstandard2.1\CoinEx.Net.dll">
+      <PackagePath>CoinEx.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:38:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\coingecko.net\2.6.1\lib\netstandard2.1\CoinGecko.Net.dll">
+      <PackagePath>CoinGecko.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\crc32.net\1.2.0\lib\netstandard2.0\Crc32.NET.dll">
+      <PackagePath>Crc32.NET.dll</PackagePath>
+      <Modified>2017-12-07T23:07:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\cryptoclients.net\2.2.1\lib\netstandard2.1\CryptoClients.Net.dll">
+      <PackagePath>CryptoClients.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:48:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\cryptoexchange.net\8.0.3\lib\netstandard2.1\CryptoExchange.Net.dll">
+      <PackagePath>CryptoExchange.Net.dll</PackagePath>
+      <Modified>2024-10-14T12:13:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\gateio.net\1.8.1\lib\netstandard2.1\GateIo.Net.dll">
+      <PackagePath>GateIo.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:39:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.bingx.net\1.11.1\lib\netstandard2.1\BingX.Net.dll">
+      <PackagePath>BingX.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:32:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.bitget.net\1.10.3\lib\netstandard2.1\Bitget.Net.dll">
+      <PackagePath>Bitget.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:35:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.mexc.net\1.8.2\lib\netstandard2.1\Mexc.Net.dll">
+      <PackagePath>Mexc.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:41:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jk.okx.net\2.5.1\lib\netstandard2.1\OKX.Net.dll">
+      <PackagePath>OKX.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:42:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jkorf.coinbase.net\1.0.1\lib\netstandard2.1\Coinbase.Net.dll">
+      <PackagePath>Coinbase.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:37:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jkorf.htx.net\6.1.3\lib\netstandard2.1\HTX.Net.dll">
+      <PackagePath>HTX.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\jose-jwt\5.0.0\lib\netstandard2.1\jose-jwt.dll">
+      <PackagePath>jose-jwt.dll</PackagePath>
+      <Modified>2024-04-03T18:08:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\krakenexchange.net\5.0.0\lib\netstandard2.1\Kraken.Net.dll">
+      <PackagePath>Kraken.Net.dll</PackagePath>
+      <Modified>2024-10-14T13:08:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\kucoin.net\5.15.1\lib\netstandard2.1\Kucoin.Net.dll">
+      <PackagePath>Kucoin.Net.dll</PackagePath>
+      <Modified>2024-10-14T16:41:00.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.connections.abstractions\8.0.10\lib\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll">
       <PackagePath>Microsoft.AspNetCore.Connections.Abstractions.dll</PackagePath>
       <Modified>2024-09-18T18:38:04.000</Modified>
@@ -1920,6 +1992,10 @@
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.http.connections.common\8.0.10\lib\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll">
       <PackagePath>Microsoft.AspNetCore.Http.Connections.Common.dll</PackagePath>
       <Modified>2024-09-18T18:39:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.http.features\5.0.17\lib\net5.0\Microsoft.AspNetCore.Http.Features.dll">
+      <PackagePath>Microsoft.AspNetCore.Http.Features.dll</PackagePath>
+      <Modified>2022-04-15T22:18:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.aspnetcore.signalr.client\8.0.10\lib\net8.0\Microsoft.AspNetCore.SignalR.Client.dll">
       <PackagePath>Microsoft.AspNetCore.SignalR.Client.dll</PackagePath>
@@ -2213,6 +2289,10 @@
       <PackagePath>System.Runtime.Caching.dll</PackagePath>
       <Modified>2021-10-22T23:52:44.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\system.text.json\8.0.5\lib\net8.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2024-09-16T23:09:00.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.data.sqlclient.sni.runtime\5.1.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll">
       <PackagePath>Microsoft.Data.SqlClient.SNI.dll</PackagePath>
       <Modified>2023-08-11T18:56:18.000</Modified>
@@ -2235,15 +2315,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.Business\bin\Debug\net8.0\MetuTrade.Business.dll">
       <PackagePath>MetuTrade.Business.dll</PackagePath>
-      <Modified>2024-10-15T23:57:04.469</Modified>
+      <Modified>2024-10-21T22:13:45.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.Core\bin\Debug\net8.0\MetuTrade.Core.dll">
       <PackagePath>MetuTrade.Core.dll</PackagePath>
-      <Modified>2024-10-15T19:16:05.419</Modified>
+      <Modified>2024-10-21T22:13:43.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.DataAccess\bin\Debug\net8.0\MetuTrade.DataAccess.dll">
       <PackagePath>MetuTrade.DataAccess.dll</PackagePath>
-      <Modified>2024-10-15T22:14:17.940</Modified>
+      <Modified>2024-10-21T22:13:44.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\.nuget\packages\microsoft.web.webview2\1.0.2651.64\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
@@ -2251,7 +2331,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MetuTrade.AdminUI.deps.json">
       <PackagePath>MetuTrade.AdminUI.deps.json</PackagePath>
-      <Modified>2024-10-16T11:12:08.427</Modified>
+      <Modified>2024-10-20T19:44:58.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\deniz\code\ai-trade\app\MetuTrade.AdminUI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

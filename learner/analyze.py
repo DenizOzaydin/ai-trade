@@ -21,7 +21,7 @@ def action_filter(action, k):
             new_action[i] = 1.
     return new_action
 
-def strategy(close, actions, comm):    
+def calculate_balance(close, actions, comm):    
     balance_ = 0
     commission = 0
     lot = 0
@@ -34,7 +34,7 @@ def strategy(close, actions, comm):
     profits = 0
     losses = 0
     
-    for i in range(len(close)):
+    for i in range(1, len(close)):
         prev_lot = lot
         balance_ += lot * (close[i] - close[i-1])
         action_profit += lot * (close[i] - close[i-1])

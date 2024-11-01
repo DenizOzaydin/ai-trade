@@ -169,7 +169,7 @@ namespace MetuTrade.WebApi.Services
 
             _subscriptions.TryGetValue(id, out subscription);
 
-            if(subscription != null)
+            if(subscription != null && subscription.Subscription != null)
             {
                 await _binanceSocketClient.UnsubscribeAsync(subscription.Subscription.Id);
                 return true;

@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using MetuTrade.Core.Collections;
+using Newtonsoft.Json;
 
 namespace MetuTrade.Core.TechnicalAnalysis
 {
@@ -21,32 +22,6 @@ namespace MetuTrade.Core.TechnicalAnalysis
             return list;
         }
 
-        public static List<double> Multiply(List<double> l1, List<double> l2)
-        {
-            int n = l1.Count;
-            List<double> l3 = Generate(n);
-
-            for(int i = 0; i < n; i++)
-            {
-                l3[i] = l1[i] * l2[i];
-            }
-
-            return l3;
-        }
-
-        public static List<double> Subtract(List<double> l1, List<double> l2)
-        {
-            int n = l1.Count;
-            List<double> l3 = Generate(n);
-
-            for (int i = 0; i < n; i++)
-            {
-                l3[i] = l1[i] - l2[i];
-            }
-
-            return l3;
-        }
-
         public static List<double> EMA(List<double> close, int period)
         {
             int n = close.Count;
@@ -56,9 +31,18 @@ namespace MetuTrade.Core.TechnicalAnalysis
             ind[0] = close[0];
             for(int i = 1; i < n; i++)
             {
-                ind[i] = a * close[i] + (1 - a) * close[i - 1];
+                ind[i] = a * close[i] + (1 - a) * ind[i - 1];
             }
             return ind;
+        }
+
+        public static List<double> EMARatio(List<double> close, int p1, int p2)
+        {
+            var ema1 = EMA(close, p1);
+            var ema2 = EMA(close, p2);
+            var ratio = Mathematics.Divide(ema1, ema2);
+            var log = Mathematics.Log(ratio);
+            return log;
         }
 
         public static List<double> RMA(List<double> close, int period)
@@ -125,8 +109,8 @@ namespace MetuTrade.Core.TechnicalAnalysis
                 else k[i] = 0;
             }
 
-            up = Multiply(RMA(up, period), k);
-            down = Multiply(RMA(down, period), k);
+            up = Mathematics.Multiply(RMA(up, period), k);
+            down = Mathematics.Multiply(RMA(down, period), k);
 
             List<double> dx = Generate(n);
 
@@ -143,9 +127,9 @@ namespace MetuTrade.Core.TechnicalAnalysis
         {
             List<double> fastLine = EMA(close, fast);
             List<double> slowLine = EMA(close, slow);
-            List<double> macdLine = Subtract(fastLine, slowLine);
+            List<double> macdLine = Mathematics.Subtract(fastLine, slowLine);
             List<double> signalLine = EMA(macdLine, signal);
-            List<double> macdHist = Subtract(macdLine, signalLine);
+            List<double> macdHist = Mathematics.Subtract(macdLine, signalLine);
             return (macdLine, macdHist, signalLine);
         }
 
@@ -197,7 +181,7 @@ namespace MetuTrade.Core.TechnicalAnalysis
             return llv;
         }
 
-        public static (List<double>, List<double>) PriceRange(List<double> high, List<double> low, List<double> close, int period)
+        public static List<double> Spectrum(List<double> high, List<double> low, List<double> close, int period)
         {
             int n = close.Count;
 
@@ -210,10 +194,23 @@ namespace MetuTrade.Core.TechnicalAnalysis
             for (int i = 0; i < n; i++) {
                 if (hhv[i] - llv[i] > 0) pr[i] = (close[i] - llv[i]) / (hhv[i] - llv[i]);
                 else pr[i] = 0;
+                pr[i] = pr[i] * 2.0 - 1.0;
                 diff[i] = hhv[i] - llv[i];
             }
 
-            return (pr, diff);
+            return pr;
+        }
+
+        public static List<double> Solve(dynamic key, List<double> high, List<double> low, List<double> close, List<double> volume)
+        {
+            string k = (string)key[0];
+            if (k == "close") return close;
+            if (k == "high") return high;
+            if (k == "low") return low;
+            if (k == "volume") return volume;
+            if (k == "emaRatio") return EMARatio(Solve(key[1], high, low, close, volume), (int)key[2], (int)key[3]);
+            if (k == "spectrum") return Spectrum(Solve(key[1], high, low, close, volume), Solve(key[2], high, low, close, volume), Solve(key[3], high, low, close, volume), (int)key[4]);
+            return Generate(close.Count);
         }
     }
 }

@@ -1,0 +1,21 @@
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MetuTrade.Core.ArtificialIntelligence
+{
+    public class NeuralNetworkSettings
+    {
+        [JsonProperty("interval")]
+        public string Interval { get; set; }
+
+        [JsonProperty("indicators")]
+        public List<dynamic> Indicators { get; set; }
+
+        [JsonProperty("std")]
+        public List<double> StandardDeviations { get; set; }
+    }
+}

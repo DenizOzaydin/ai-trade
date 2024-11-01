@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetuTrade.AdminUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33951220f5e1d9b6d451e8749adb49b6ecaa2975")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04a0201f08d9f468c1b2f14d81ab56a8bee015a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetuTrade.AdminUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetuTrade.AdminUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
